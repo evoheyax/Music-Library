@@ -1,8 +1,11 @@
-CS 212 Projects
-===============
+LastFM Music Library Server
+==========================
 
-- [Project 1 - Music Library](https://github.com/CS212-S16/projects/blob/master/Project/specifications/project1.md)
-- [Project 2 - Thread-safe Music Library](https://github.com/CS212-S16/projects/blob/master/Project/specifications/project2.md)
-- [Project 3 - Web-based Music Search](https://github.com/CS212-S16/projects/blob/master/Project/specifications/project3.md)
-- [Project 4 - Persistent Storage](https://github.com/CS212-S16/projects/blob/master/Project/specifications/project4.md)
-- [Project 5 - Advanced Features](https://github.com/CS212-S16/projects/blob/master/Project/specifications/project5.md)
+The goal of this project was create a earch engine in Java using Jetty to serve the LastFM [Million Song Dataset](http://labrosa.ee.columbia.edu/millionsong/lastfm). This project was the semester long project I completed for CS212, also known as Software development.
+
+The goal of the project was to:
+
+- Parse LastFM dataset to build a thread-safe library using a custom build data structure.
+- Create a search engine website with a user account system using a Java library named Jetty
+
+This project emphasized the need to choose the correct datasctruces and algorithms, updating and modifying code on the project that is too large to keep entirely in memory, the benifits and costs of multi-threading and the misconceptions of multithreading, and using Jetty to create Java servlets to host a website.
